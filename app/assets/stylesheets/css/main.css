@@ -16,12 +16,6 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2374,9 +2368,9 @@
 		}
 
 
-/* SIGN UP */
+/* UNIQUE BUTTONS */
 
-		.signup {
+		.signup,.signup2 {
 			-moz-appearance: none;
 			-webkit-appearance: none;
 			-ms-appearance: none;
@@ -2386,8 +2380,7 @@
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			background-color: #EA1836;
-/*			box-shadow: inset 0 0 0 2px #EA1836;
-*/			border-radius: 4px;
+			border-radius: 4px;
 			color: #fff;
 			cursor: pointer;
 			display: inline-block;
@@ -2412,6 +2405,21 @@
 
 		.signup,a {
 			border-bottom: none;
+		}
+
+		.signup2:hover {
+			background-color: rgba(144, 144, 144, 0.25) !important;
+			box-shadow: inset 0 0 0 2px #EA1836;
+			color: #EA1836;
+		}
+
+		.mail_to_button {
+		background-color: #003364;
+		box-shadow: inset 0 0 0 2px #003364;
+		}
+
+		.mail_to_button:hover {
+			color: #003364;
 		}
 
 
@@ -2730,9 +2738,9 @@
 		}
 
 		.wrapper.style1 {
-/*			background-color: #4D5F70;
-*/			margin-top: 5em;
-			background-image: url("images/delta_one.jpg");
+/*			background-color: #4D5F70;*/			
+/*			margin-top: 5em;
+*/			background-image: url("images/delta_one_blur.jpg");
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -3750,7 +3758,7 @@
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
+		padding: 10em 0 13em 0 !important;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
@@ -3901,10 +3909,6 @@
 /* Landing */
 
 	body.landing,#page-wrapper {
-		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");*/
 		background-image: url("images/landing_background.jpg");
 		background-attachment: fixed;
 		background-position: center center;

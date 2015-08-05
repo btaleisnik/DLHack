@@ -1,0 +1,16 @@
+@import url("main.css");
+
+body.landing,#page-wrapper,header {
+		background-image: url("images/delta_tails.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+		z-index: 0;
+}
+
+
+.tool_info {
+	background-color: rgba(0,0,0,0.3);
+}
