@@ -2386,9 +2386,8 @@
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 			background-color: #EA1836;
-			border-radius: 5px;
-			border: 0;
-			box-shadow: inset 0 0 0 2px #fff;
+/*			box-shadow: inset 0 0 0 2px #EA1836;
+*/			border-radius: 4px;
 			color: #fff;
 			cursor: pointer;
 			display: inline-block;
@@ -2404,10 +2403,15 @@
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
+
 		}
 
 		.signup:hover {
 			background-color: #ee4961 !important;
+		}
+
+		.signup,a {
+			border-bottom: none;
 		}
 
 
@@ -2763,8 +2767,8 @@
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
-			}
+/*				border-color: rgba(0, 0, 0, 0.125);
+*/			}
 
 			.wrapper.style1 header.major p {
 				color: #c7ebe8;
@@ -2927,11 +2931,19 @@
 			}
 
 			.wrapper.style3 header.major h2, .wrapper.style3 header.major h3, .wrapper.style3 header.major h4, .wrapper.style3 header.major h5, .wrapper.style3 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
-			}
+/*				border-color: rgba(0, 0, 0, 0.125);
+*/			}
 
 			.wrapper.style3 header.major p {
 				color: #d3d4e4;
+			}
+
+			.wrapper.style3 header.major a {
+				border-bottom: 1px dotted;
+			}
+
+			.wrapper.style3 header.major a:hover {
+				color: white;
 			}
 
 			.wrapper.style3 label {
