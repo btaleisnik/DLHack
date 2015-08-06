@@ -4,7 +4,7 @@
 			160,24,51 // #A01833 // DARK RED
 			234,24,54 // #EA1836 // LIGHT RED
 			0,51,100  // #003364 // BLUE
-			42,118,183 // 		 // LIGHT BLUE*/
+			42,118,183// #2A76B7 // LIGHT BLUE*/
 
 
 
@@ -3647,6 +3647,15 @@
 			left: 0;
 			top: 0;
 			opacity: 0;
+		}
+
+		.hack_link {
+			color: #003364;
+			font-size: 14px;
+		}
+
+		.hack_link:hover {
+			color: #2A76B7;
 		}
 
 		@media screen and (max-width: 736px) {
