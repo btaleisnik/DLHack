@@ -44,3 +44,15 @@ body.landing,#page-wrapper,header {
 .tool_info:hover {
 	background-color: rgba(0,0,0,0.7);
 }
+
+
+.tiled_image {
+	opacity: .5;
+	background-repeat: no-repeat;
+}
+
+.image_container {
+}
+
+
+
