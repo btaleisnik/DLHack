@@ -51,7 +51,16 @@ body.landing,#page-wrapper,header {
 	background-repeat: no-repeat;
 }
 
-.image_container {
+.table_hover:hover {
+	background: rgba(0,0,0,.5) !important;
+	color: white !important;
+	/*color: rgba(0,0,0,.2);*/
+	cursor: pointer;
+}
+
+.tool_hover:hover {
+	cursor: pointer;
+	color: #A01833;
 }
 
 
